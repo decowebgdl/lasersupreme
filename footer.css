@@ -1,0 +1,165 @@
+@charset "utf-8";
+
+/* Paleta de colores
+Rojo: #ed1c24
+Naranja: #f15a29
+Amarillo: #f7941d
+Blanco: #fff
+Aux. 1 Café: #603913
+Aux. 2 Gris Oscuro: #58595b
+*/
+
+footer {
+    width: 100%;
+    height: 500px;
+    background-color: #2f2f2f;
+    color: #fff;
+
+}
+
+footer article {
+    width: 33.3%;
+    height: 500px;
+    float: left;
+}
+
+footer article img {
+    width: 250px;
+    height: 100px;
+    margin-top: 70px;
+    margin-left: 27%;
+}
+@media only screen and (max-width:1030px) {
+    footer article img {
+        margin-left: 18%;
+    }
+}
+@media only screen and (max-width:830px) {
+    footer article img {
+        margin-left: 5%;
+    }
+}
+footer article h2 {
+    font-size: 20px;
+    width: 80%;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin-left: 10%;
+    color: #f15a29;
+    margin-top: 5%;
+}
+
+footer article p {
+    font-size: 13px;
+    width: 80%;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-left: 10%;
+}
+
+footer .foot-rss {
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    margin-top: 0%;
+}
+
+footer .foot-rss:hover {
+    border-radius: 50%;
+    transition: .5s;
+    margin-top: -3px;
+}
+
+footer article #foot_1_rss {
+    margin-left: 40%;
+}
+
+footer article li {
+    list-style: none;
+    font-size: 13px;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 7px;
+    letter-spacing: 2px;
+}
+footer article a{
+    color: #fff;
+    text-decoration: none;
+}
+
+footer article li:hover {
+    font-size: 13.5px;
+    transition: .5s;
+    padding-left: 3px;
+    color: #ed1c24;
+}
+
+#copy {
+    width: 100%;
+    height: 40px;
+    background-color: #58595b;
+}
+
+#copy li {
+    font-size: 12px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    list-style: none;
+}
+
+#copy a {
+    color: #fff;
+}
+@media only screen and (max-width:740px) {
+    footer{
+        height: 1500px;
+    }
+    footer article img{
+        width: 35%;
+        margin-left: 32.5%;
+    }
+    footer article {
+        width: 100%;
+        height: 500px;
+        float: none;
+    }
+}
+/* CSS Para versión dispositivos móviles
+*/
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    footer{
+        height: 2500px;
+    }
+    footer article img{
+        width: 35%;
+        margin-left: 32.5%;
+    }
+    footer article {
+        width: 100%;
+        height: 800px;
+        float: none;
+    }
+    footer article h2 {
+        font-size: 45px;
+    }
+    
+    footer article p {
+        font-size: 35px;
+    }
+    
+    footer .foot-rss {
+        width: 70px;
+        height: 70px;
+    }
+    footer article #foot_1_rss {
+        margin-left: 38%;
+    }
+    footer article li {
+        font-size: 35px;
+    }
+    
+}

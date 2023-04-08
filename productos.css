@@ -1,0 +1,454 @@
+@charset "utf-8";
+
+/* Paleta de colores
+Rojo: #ed1c24
+Naranja: #f15a29
+Amarillo: #f7941d
+Blanco: #fff
+Aux. 1 Café: #603913
+Aux. 2 Gris Oscuro: #58595b
+Whatsapp: #25d366
+*/
+body {
+    margin: 0% 0% 0% 0%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#d-01 {
+    width: 100%;
+    height: 600px;
+    background-image: url(/img/background-productos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#d-01 h1 {
+    font-size: 50px;
+    color: #fff;
+    margin-top: 15%;
+    margin-left: 7%;
+}
+
+#d-01 p {
+    margin-left: 7%;
+    font-size: 25px;
+    font-weight: 400;
+    color: #fff;
+
+}
+
+#d-01 button {
+    line-height: 40px;
+    background-color: #ed1c24;
+    font-size: 13px;
+    width: 10%;
+    margin-left: 10%;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+#d-01 button:hover {
+    background-color: #25d366;
+    transition: .5s;
+    box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.75);
+}
+
+@media only screen and (max-width:1000px) {
+    #d-01 button {
+        width: 12%;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    #d-01 button {
+        width: 15%;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    #d-01 button {
+        width: 17%;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    #d-01 button {
+        width: 19%;
+    }
+}
+
+main {
+    height: 2350px;
+    width: 100%;
+    border-bottom: 1px groove #f2f2f2;
+}
+
+/*
+Clase para contenedores dentro de la etiqueta "main".
+*/
+main .main-produc {
+    float: left;
+}
+
+/* contenedor secundario con datos generales*/
+main #pres-produc {
+    width: 20%;
+    margin-left: 10%;
+    border-right: 1px groove #f2f2f2;
+}
+
+main #pres-produc h3 {
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+main #pres-produc p {
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-align: justify;
+    width: 80%;
+    margin-left: 5%;
+}
+
+main #pres-produc p strong {
+    color: #ed1c24;
+    font-size: 14.5px;
+}
+
+main li {
+    list-style: none;
+    width: 80%;
+    margin-left: 5%;
+}
+
+main #pres-produc .side-subtittle {
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #ed1c24;
+    font-weight: 800;
+    border-bottom: 1px groove #f2f2f2;
+}
+
+main #pres-produc ol {
+    line-height: 30px;
+}
+
+main #pres-produc ol li:hover {
+    margin-left: 2px;
+    transition: .5s;
+    color: #ed1c24;
+    font-weight: 600;
+}
+
+/* Contenedor principal con catálogo de productos*/
+main #id-produc {
+    width: 60%;
+}
+
+main #id-produc article {
+    width: 30%;
+    height: 430px;
+    border-top: 1px groove #f2f2f2;
+    border-right: 1px groove #f2f2f2;
+    border-bottom: 1px groove #f2f2f2;
+    border-left: 1px groove #f2f2f2;
+    float: left;
+    margin-left: 2.5%;
+    margin-top: 2%;
+}
+
+main #id-produc article:hover {
+    transition: .5s;
+    box-shadow: 1px 1px 3px 1px rgba(237, 28, 36, 0.47);
+    -webkit-box-shadow: 1px 1px 3px 1px rgba(237, 28, 36, 0.47);
+    -moz-box-shadow: 1px 1px 3px 1px rgba(237, 28, 36, 0.47);
+}
+
+main article img {
+    width: 100%;
+    height: 200px;
+}
+
+main article li {
+    list-style: none;
+    text-align: left;
+    width: 80%;
+    letter-spacing: 2px;
+    margin-left: 10%;
+}
+
+main article .main-pro-name {
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+main article .main-pro-descrip {
+    font-size: 13px;
+}
+
+main article .main-pro-mat {
+    font-size: 13px;
+    color: #ed1c24;
+    font-weight: 600;
+}
+
+main article .main-pro-mat font {
+    font-size: 13px;
+    color: #000;
+    font-weight: 600;
+}
+
+main article .main-pro-price {
+    font-weight: 600;
+}
+
+main article button {
+    width: 50%;
+    line-height: 30px;
+    font-size: 13px;
+    background-color: #ed1c24;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-left: 25%;
+    margin-top: 7%;
+    border: none;
+}
+
+main article button:hover {
+    background-color: #f7941d;
+    transition: .5s;
+    box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.75);
+}
+
+/* Inicio de Media queries sobre ambos contenedores dentro de  la etiqueta "main" */
+@media only screen and (max-width:1200px) {
+    main #pres-produc {
+        width: 25%;
+        margin-left: 5%;
+    }
+
+    main #id-produc {
+        width: 68%;
+    }
+}
+
+@media only screen and (max-width:1100px) {
+    main {
+        height: 3650px;
+        width: 100%;
+    }
+
+    main #id-produc article {
+        width: 44%;
+
+    }
+}
+
+@media only screen and (max-width:740px) {
+    main {
+        height: 8650px;
+        width: 100%;
+    }
+
+    main #id-produc {
+        width: 59%;
+    }
+
+    main #pres-produc {
+        width: 35%;
+        margin-left: 5%;
+    }
+
+    main #id-produc article {
+        width: 90%;
+        height: 550px;
+        margin-left: 5%;
+
+    }
+
+    main #id-produc article img {
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    main #pres-produc {
+        width: 38%;
+        margin-left: 2%;
+    }
+}
+
+/*  Contenedor para anexar páginas al caálogo de productos  */
+#d-pages {
+    width: 100%;
+    height: 30px;
+}
+
+#d-pages article {
+    width: 50%;
+    margin-left: 35%;
+}
+
+#d-pages article li {
+    font-size: 13px;
+    text-align: center;
+    color: #ed1c24;
+    font-weight: 600;
+    float: left;
+    list-style: none;
+}
+
+#d-pages li {
+    line-height: 30px;
+}
+
+#d-pages article .li-pages {
+    width: 3%;
+    margin-left: 1%;
+}
+
+#d-pages article .li-pages:hover {
+    background-color: #ed1c24;
+    color: #fff;
+    transition: .5s;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    #d-01 {
+        height: 800px;
+    }
+    
+    #d-01 h1 {
+        font-size: 80px;
+      line-height: 70px;
+        margin-top: 29%;
+        margin-left: 7%;
+    }
+    
+    #d-01 p {
+        font-size: 35px;
+    }
+    
+    #d-01 button {
+        line-height: 80px;
+        font-size: 33px;
+        width: 30%;
+    }
+    main {
+        height: 12850px;
+    }
+
+    /* contenedor secundario con datos generales*/
+    main #pres-produc {
+        width: 20%;
+    }
+
+    main #pres-produc h3 {
+        font-size: 45   px;
+    }
+
+    main #pres-produc p {
+        font-size: 30px;
+        line-height: 33px;
+    }
+
+    main #pres-produc p strong {
+        color: #ed1c24;
+        font-size: 35px;
+    }
+
+    main li {
+        font-size: 25px;
+        line-height: 50px;
+    }
+
+    main #pres-produc .side-subtittle {
+        font-size: 40px;
+    }
+
+/**/
+
+    main #id-produc {
+        width: 59%;
+    }
+
+    main #pres-produc {
+        width: 35%;
+        margin-left: 5%;
+    }
+
+    main #id-produc article {
+        width: 90%;
+        height: 820px;
+        margin-left: 5%;
+        margin-top: 5%;
+
+    }
+
+    main article img {
+        width: 100%;
+        height: 400px;
+    }
+
+    main article li {
+        list-style: none;
+        text-align: left;
+        width: 80%;
+        letter-spacing: 2px;
+        margin-left: 10%;
+    }
+
+    main article .main-pro-name {
+        font-size: 43px;
+    }
+
+    main article .main-pro-descrip {
+        font-size: 30px;
+    }
+
+    main article .main-pro-mat {
+        font-size: 25px;
+
+    }
+
+    main article .main-pro-mat font {
+        font-size: 25px;
+    }
+
+    main article .main-pro-price {
+
+        font-size: 20px;
+    }
+
+    main article button {
+        width: 50%;
+        line-height: 70px;
+        font-size: 35px;
+    }
+    /*  */
+    #d-pages {
+        width: 100%;
+    }
+    
+    #d-pages article {
+        width: 50%;
+        margin-left: 35%;
+    }
+    
+    #d-pages article li {
+        font-size: 25px;
+    }
+
+    #d-pages article .li-pages {
+        width: 8%;
+        margin-left: 3%;
+    }
+}
